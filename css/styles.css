@@ -1,0 +1,55 @@
+:root {
+	--background-dark: #171B38;
+	--background-medium: #33375B;
+	--background-light: #5d618b;
+	--user-color: #D8FFCA;
+}
+
+html, body {
+	background: var(--background-dark);
+}
+
+.block {
+	background: var(--background-medium);
+	border-radius: 50px;
+}
+
+.user {
+	border-radius: 50px;
+	width: 75px;
+	height: 75px;
+	display: inline-block;
+	margin: 4px 4px 4px 4px;
+}
+
+.control-panel {
+	display: inline-block;
+	margin: 4px 4px 4px 4px;
+	padding: 4px 4px 4px 4px;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: bisque;
+}
+
+.modal-header {
+	background: var(--background-medium);
+	color: white;
+	border-bottom: none;
+}
+
+.close {
+	color: floralwhite;
+}
+
+.close:hover {
+	color: white;
+}
+
+.modal-body {
+	background: var(--background-light);
+}
